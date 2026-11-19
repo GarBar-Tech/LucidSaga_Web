@@ -34,7 +34,7 @@ export const en: LegalCopy = {
           "Account: your email address, a display name, your birth date, and either a password, stored only as a salted hash that can’t be read back, or your Google account’s identifier when you sign in with Google. We never receive your Google password.",
           "Story settings: the content preferences you choose (gore level, romance and dark themes on or off), your dictation and reading-aloud choices, and the language of each story.",
           "Your stories: the world or premise you start from, the actions you type or dictate, the choices you pick and what the narrator writes back, with the story’s state: its characters, places and the facts its world remembers.",
-          "Pictures and audio: the pictures drawn for your stories, and the audio of scenes read aloud in the studio voice, kept so a scene you hear again plays at once and costs nothing.",
+          "Pictures and audio: the pictures drawn for your stories, the pictures you save to your gallery with the scenes around them, and the audio of scenes read aloud in the studio voice, kept so a scene you hear again plays at once and costs nothing.",
           "Credits: your balance, and what each turn, picture, dictation or scene read aloud cost.",
           "Signed-in devices: when each one signed in and was last used, so you stay signed in and can sign a device out.",
           "Reports: a scene you report, the reason you pick, any note you write, whether you blocked it, and what our staff decided.",
@@ -110,7 +110,7 @@ export const en: LegalCopy = {
         id: "retention",
         title: "7. How long we keep it",
         bullets: [
-          "Your account, stories, pictures, audio and credits: as long as you keep them. Deleting a story deletes its scenes, pictures and audio. Deleting your account deletes everything in it, at once.",
+          "Your account, stories, pictures, audio and credits: as long as you keep them. Deleting a story deletes its scenes, pictures and audio, except the pictures you saved to your gallery, which stay with their scenes until you remove them. Deleting your account deletes everything in it, at once.",
           "Reports: until you delete the reported story or your account.",
           "Dictation recordings: not kept. Each is used for its one request.",
           "Logs: 30 days. Sign-in protection counts expire on their own after a short time.",
@@ -327,7 +327,7 @@ export const en: LegalCopy = {
     title: "Delete your Lucid Saga account",
     description: "Delete your account in the app, or ask us by email without the app.",
     summary: [
-      "Deleted: your account, every story with its scenes, pictures and audio, your credits and your sign-ins.",
+      "Deleted: your account, every story with its scenes, pictures and audio, your gallery, your credits and your sign-ins.",
       "In the app it happens at once, and it can’t be undone.",
       "Deleting your account doesn’t cancel a Google Play subscription.",
     ],
@@ -355,7 +355,7 @@ export const en: LegalCopy = {
         id: "scope",
         title: "3. What is deleted, and what stays",
         bullets: [
-          "Deleted: your account, every story with its scenes, pictures and the audio of scenes read aloud, your reports, your credits, including any you have left, and your sign-in on every device.",
+          "Deleted: your account, every story with its scenes, pictures and the audio of scenes read aloud, the pictures saved to your gallery, your reports, your credits, including any you have left, and your sign-in on every device.",
           "Not deleted by the app: our logs, which hold account and story identifiers but never a story’s text, and expire after 30 days; the database’s restore history, which ages out on its own; your emails with us; Google Play’s own record of any purchase; and copies you exported. Ask us to delete what can be deleted, and we’ll tell you what must stay, why and for how long.",
           "Your Google account isn’t affected.",
         ],

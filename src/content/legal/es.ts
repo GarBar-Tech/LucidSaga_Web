@@ -37,7 +37,7 @@ export const es: LegalCopy = {
           "Cuenta: tu correo electrónico, un nombre visible, tu fecha de nacimiento y, o bien una contraseña, guardada solo como hash con sal que no se puede leer, o bien el identificador de tu cuenta de Google si entras con Google. Nunca recibimos tu contraseña de Google.",
           "Ajustes de las historias: las preferencias de contenido que eliges (nivel de violencia gráfica, romance y temas oscuros activados o no), cómo quieres dictar y que se lean las escenas, y el idioma de cada historia.",
           "Tus historias: el mundo o la premisa de partida, las acciones que escribes o dictas, las opciones que eliges y lo que el narrador escribe, junto con el estado de la historia: sus personajes, lugares y los hechos que recuerda su mundo.",
-          "Imágenes y audio: las imágenes dibujadas para tus historias y el audio de las escenas leídas con la voz de estudio, que guardamos para que una escena que vuelves a escuchar suene al instante y no cueste nada.",
+          "Imágenes y audio: las imágenes dibujadas para tus historias, las que guardas en tu galería con las escenas que las rodean, y el audio de las escenas leídas con la voz de estudio, que guardamos para que una escena que vuelves a escuchar suene al instante y no cueste nada.",
           "Créditos: tu saldo y lo que ha costado cada turno, imagen, dictado o escena leída en voz alta.",
           "Dispositivos con sesión iniciada: cuándo entró cada uno y cuándo se usó por última vez, para mantener tu sesión y que puedas cerrarla en un dispositivo.",
           "Denuncias: la escena que denuncias, el motivo que eliges, la nota que escribas, si la bloqueaste y lo que decidió nuestro equipo.",
@@ -113,7 +113,7 @@ export const es: LegalCopy = {
         id: "retention",
         title: "7. Cuánto tiempo los guardamos",
         bullets: [
-          "Tu cuenta, historias, imágenes, audio y créditos: mientras los conserves. Eliminar una historia elimina sus escenas, imágenes y audio. Eliminar tu cuenta elimina todo lo que contiene, al instante.",
+          "Tu cuenta, historias, imágenes, audio y créditos: mientras los conserves. Eliminar una historia elimina sus escenas, imágenes y audio, salvo las imágenes que guardaste en tu galería, que se quedan con sus escenas hasta que las quites. Eliminar tu cuenta elimina todo lo que contiene, al instante.",
           "Denuncias: hasta que elimines la historia denunciada o tu cuenta.",
           "Grabaciones de dictado: no se guardan. Cada una se usa para su única petición.",
           "Registros: 30 días. Los recuentos de protección del acceso caducan solos al poco tiempo.",
@@ -330,7 +330,7 @@ export const es: LegalCopy = {
     title: "Elimina tu cuenta de Lucid Saga",
     description: "Elimina tu cuenta desde la app, o pídenoslo por correo sin la app.",
     summary: [
-      "Se elimina: tu cuenta, cada historia con sus escenas, imágenes y audio, tus créditos y tus sesiones.",
+      "Se elimina: tu cuenta, cada historia con sus escenas, imágenes y audio, tu galería, tus créditos y tus sesiones.",
       "Desde la app se hace al instante, y no se puede deshacer.",
       "Eliminar tu cuenta no cancela una suscripción de Google Play.",
     ],
@@ -358,7 +358,7 @@ export const es: LegalCopy = {
         id: "scope",
         title: "3. Qué se elimina y qué se queda",
         bullets: [
-          "Se elimina: tu cuenta, cada historia con sus escenas, imágenes y el audio de las escenas leídas en voz alta, tus denuncias, tus créditos, incluidos los que te queden, y tu sesión en todos los dispositivos.",
+          "Se elimina: tu cuenta, cada historia con sus escenas, imágenes y el audio de las escenas leídas en voz alta, las imágenes guardadas en tu galería, tus denuncias, tus créditos, incluidos los que te queden, y tu sesión en todos los dispositivos.",
           "La app no elimina: nuestros registros, que contienen identificadores de cuenta y de historia pero nunca el texto de una historia, y caducan a los 30 días; el historial de restauración de la base de datos, que caduca solo; tus correos con nosotros; el registro propio de Google Play de cualquier compra; y las copias que hayas exportado. Pídenos que eliminemos lo que se pueda eliminar, y te diremos qué debe quedarse, por qué y durante cuánto tiempo.",
           "Tu cuenta de Google no se ve afectada.",
         ],
