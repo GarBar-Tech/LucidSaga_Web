@@ -35,7 +35,7 @@ export const ca: LegalCopy = {
           "Compte: el teu correu electrònic, un nom visible, la teva data de naixement i, o bé una contrasenya, desada només com a hash amb sal que no es pot llegir, o bé l’identificador del teu compte de Google si hi entres amb Google. No rebem mai la teva contrasenya de Google.",
           "Configuració de les històries: les preferències de contingut que tries (nivell de violència gràfica, romanç i temes foscos activats o no), com vols dictar i que es llegeixin les escenes, i l’idioma de cada història.",
           "Les teves històries: el món o la premissa de partida, les accions que escrius o dictes, les opcions que tries i el que escriu el narrador, juntament amb l’estat de la història: els seus personatges, llocs i els fets que recorda el seu món.",
-          "Imatges i àudio: les imatges dibuixades per a les teves històries i l’àudio de les escenes llegides amb la veu d’estudi, que desem perquè una escena que tornes a escoltar soni a l’instant i no costi res.",
+          "Imatges i àudio: les imatges dibuixades per a les teves històries, les que deses a la galeria amb les escenes del voltant, i l’àudio de les escenes llegides amb la veu d’estudi, que desem perquè una escena que tornes a escoltar soni a l’instant i no costi res.",
           "Crèdits: el teu saldo i el que ha costat cada torn, imatge, dictat o escena llegida en veu alta.",
           "Dispositius amb la sessió iniciada: quan hi va entrar cadascun i quan es va fer servir per última vegada, per mantenir la teva sessió i que la puguis tancar en un dispositiu.",
           "Denúncies: l’escena que denuncies, el motiu que tries, la nota que escriguis, si la vas bloquejar i el que va decidir el nostre equip.",
@@ -111,7 +111,7 @@ export const ca: LegalCopy = {
         id: "retention",
         title: "7. Quant de temps les conservem",
         bullets: [
-          "El teu compte, històries, imatges, àudio i crèdits: mentre els conservis. Eliminar una història n’elimina les escenes, les imatges i l’àudio. Eliminar el teu compte elimina tot el que conté, a l’instant.",
+          "El teu compte, històries, imatges, àudio i crèdits: mentre els conservis. Eliminar una història n’elimina les escenes, les imatges i l’àudio, excepte les imatges que vas desar a la galeria, que es queden amb les seves escenes fins que les treguis. Eliminar el teu compte elimina tot el que conté, a l’instant.",
           "Denúncies: fins que eliminis la història denunciada o el teu compte.",
           "Gravacions de dictat: no es desen. Cadascuna es fa servir per a la seva única petició.",
           "Registres: 30 dies. Els recomptes de protecció de l’accés caduquen sols al cap de poc temps.",
@@ -328,7 +328,7 @@ export const ca: LegalCopy = {
     title: "Elimina el teu compte de Lucid Saga",
     description: "Elimina el teu compte des de l’app, o demana’ns-ho per correu sense l’app.",
     summary: [
-      "S’elimina: el teu compte, cada història amb les seves escenes, imatges i àudio, els teus crèdits i les teves sessions.",
+      "S’elimina: el teu compte, cada història amb les seves escenes, imatges i àudio, la teva galeria, els teus crèdits i les teves sessions.",
       "Des de l’app es fa a l’instant, i no es pot desfer.",
       "Eliminar el teu compte no cancel·la una subscripció de Google Play.",
     ],
@@ -356,7 +356,7 @@ export const ca: LegalCopy = {
         id: "scope",
         title: "3. Què s’elimina i què es queda",
         bullets: [
-          "S’elimina: el teu compte, cada història amb les seves escenes, imatges i l’àudio de les escenes llegides en veu alta, les teves denúncies, els teus crèdits, inclosos els que et quedin, i la teva sessió a tots els dispositius.",
+          "S’elimina: el teu compte, cada història amb les seves escenes, imatges i l’àudio de les escenes llegides en veu alta, les imatges desades a la galeria, les teves denúncies, els teus crèdits, inclosos els que et quedin, i la teva sessió a tots els dispositius.",
           "L’app no elimina: els nostres registres, que contenen identificadors de compte i d’història però mai el text d’una història, i caduquen als 30 dies; l’historial de restauració de la base de dades, que caduca sol; els teus correus amb nosaltres; el registre propi de Google Play de qualsevol compra; i les còpies que hagis exportat. Demana’ns que eliminem el que es pugui eliminar, i et direm què s’ha de quedar, per què i durant quant de temps.",
           "El teu compte de Google no es veu afectat.",
         ],

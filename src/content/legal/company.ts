@@ -19,5 +19,5 @@ export const company = {
   /** Under this age, a player gets only Teen stories (PlayableAnime F8). */
   teenOnlyUnder: 17,
   /** The day this version of the documents took effect. */
-  version: "2026-11-08",
+  version: "2026-11-19",
 } as const;
