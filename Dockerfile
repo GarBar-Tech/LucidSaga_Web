@@ -2,7 +2,7 @@
 # non-root user, on port 8080. SITE_URL is the address the site lives at, baked into the canonical
 # links, sitemap and link previews at build time (infra/deploy.sh passes it).
 
-FROM node:22.23.4-bookworm-slim AS build
+FROM node:22.23.5-bookworm-slim AS build
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
 COPY package.json package-lock.json ./
@@ -12,7 +12,7 @@ ARG SITE_URL=http://localhost:8080
 ENV SITE_URL=${SITE_URL}
 RUN npm run build
 
-FROM node:22.23.4-bookworm-slim AS run
+FROM node:22.23.5-bookworm-slim AS run
 WORKDIR /app
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
